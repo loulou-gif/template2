@@ -1,8 +1,8 @@
 function Section1() {
     return(
-        <div>
-            
-        </div>
+        <section className="section1 ">
+
+        </section>
     )
     
 }

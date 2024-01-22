@@ -1,8 +1,11 @@
+import '../assets/Css/Styles.css'
 function Headers() {
     return(
-        <div>
-            
-        </div>
+        <header className="header  bg-gray-300">
+            <div className='social-network bg-white'>
+
+            </div>
+        </header>
     )
     
 }

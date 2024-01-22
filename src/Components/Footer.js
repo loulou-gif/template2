@@ -1,8 +1,8 @@
 function Footer() {
     return(
-        <div>
+        <footer className="bg-gray-300">
             
-        </div>
+        </footer>
     )
     
 }

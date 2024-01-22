@@ -1,8 +1,8 @@
 function Section2() {
     return(
-        <div>
+        <section className="section2 bg-red-50">
             
-        </div>
+        </section>
     )
     
 }
