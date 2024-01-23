@@ -21,11 +21,20 @@
     margin-top: 12px;
     margin-right: 20px;
 }
+.second-cercle{
+    border-radius: 60%;
+}
 .nav-bar{
     margin-left: 10%;
 }
 .header .title{
     margin-left: 10%;
+}
+.box{
+    margin-bottom: 15px;
+    border-radius: 5%;
+    height: 650px;
+    padding: 10px;
 }
 .section1{
     width: 100%;
