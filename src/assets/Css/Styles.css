@@ -30,6 +30,9 @@
 .header .title{
     margin-left: 10%;
 }
+.min-box{
+    margin: 10px;
+}
 .box{
     margin-bottom: 15px;
     border-radius: 5%;
