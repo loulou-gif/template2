@@ -4,7 +4,7 @@ import foodwar from "../assets/Img/fw.png"
 import demonSlayer from "../assets/Img/kny.jpg"
 function Section3() {
     return(
-        <section className="section3 bg-white">
+        <section className="section3 bg-white -mb-40">
             <div className="flex">
                 <img alt="img-sect3" className="w-1/4" src={naruto} ></img>
                 <img alt="img-sect3" className="w-1/4" src={bleach} ></img>

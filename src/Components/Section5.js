@@ -2,7 +2,7 @@ import otaku from '../assets/Img/otaku.jpg'
 
 function Section5() {
     return(
-        <section className="section5 w-full flex p-10  mt-12">
+        <section className="section5  w-full flex p-10  mt-12">
             <div className="w-6/12 border  flex justify-center  bg-white ">
                 <div className=" mt-40 w-10/12 ">
                     <h2 className="text-2xl font-extrabold mt-5">Valeurs et fonctionnalités</h2>
