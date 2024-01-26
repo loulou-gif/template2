@@ -4,7 +4,7 @@ import pull1 from '../assets/Img/pull1.jpg'
 function Section2() {
     return(
         <section className="section2 bg-red-50 flex ">
-            <img alt="anime" className="w-6/12 bg-gray-200" src={pull1} />          
+            <img alt="anime" className="w-full bg-gray-200" src={pull1} />          
             <div className="w-8/12 m-20  mt-40">
                 <div className="min-box p-5 ">
                     <h3 className='text-3xl mt-20 font-bold w-full'>Naruto</h3>

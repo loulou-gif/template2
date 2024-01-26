@@ -83,3 +83,25 @@ iframe{
     width:"800";
     height:"450";
 }
+
+/* Styles pour les écrans plus larges que 768px */
+@media screen and (max-width: 768px) {
+    .social-network{
+        display: none;
+    }
+    .header{
+        
+    }
+    .nav-bar{
+
+    }
+    /* .title{
+        font-size: 10px;
+    } */
+  }
+  
+  /* Styles pour les écrans plus larges que 1024px */
+  @media screen and (min-width: 1024px) {
+    /* Ajouter des styles pour les écrans encore plus larges ici */
+  }
+  
