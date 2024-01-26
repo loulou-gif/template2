@@ -14,7 +14,7 @@ function Section3() {
             <div className="text-center ">
                 <h3 className="text-2 font-extrabold text-2xl mt-10">Trouvez plus d'idées créatives pour vos projets</h3>
                 <div className="flex justify-center text-3xl mt-5  italic">
-                    <p className="w-5/12 text-gray-500 ">Interface utilisateur belle et facile à comprendre, animations professionnelles et glisser-déposer</p>
+                    <p className="ml:w-5/12 lg:w-5/12 w-9/12 p-3 text-xl text-gray-500 ">Interface utilisateur belle et facile à comprendre, animations professionnelles et glisser-déposer</p>
                 </div>
             </div>
         </section>
