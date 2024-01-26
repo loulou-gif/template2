@@ -107,6 +107,25 @@ iframe{
     padding: 10px;
     width: 75%;
     }
+    .anime{
+        display: none;
+    }
+    .mini-box{
+        height: 30%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .inside{
+        background-color: rgba(255, 255, 255, 0.4);
+        margin-top: 20px; 
+    }
+    .section2{
+        background-image: url(../Img/pull1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .complete{
+        background-color: rgba(0, 0, 0, 0.2); 
+    }
   }
   
   /* Styles pour les écrans plus larges que 1024px */
