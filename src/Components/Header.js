@@ -18,10 +18,10 @@ function Headers() {
 
 
     return(
-        <header className="header w-full  bg-gray-300">
+        <header className="header w-full border-t-2  bg-gray-300">
             <SideMenu open={open} setOpen={setOpen} />
-            <div className='social-network   flex justify-between bg-white pl-5 -pr-5 '>
-                <h1 className='text-2xl pt-3 text-white font-extrabold'>OTAK'UNIVERS</h1>
+            <div className='social-network   flex justify-between bg-white pl-5'>
+                <h1 className='text-2xl pt-4 text-white font-extrabold'>OTAK'UNIVERS</h1>
                 <div className='flex justify-end '>
                     <TiSocialFacebookCircular className='cercle text-white '/>
                     <TiSocialInstagram className='cercle text-white'/>
