@@ -126,7 +126,9 @@ iframe{
     .complete{
         background-color: rgba(0, 0, 0, 0.2); 
     }
-    
+    .img-sect3{
+        display: none;
+    }
   }
   
   /* Styles pour les écrans plus larges que 1024px */
