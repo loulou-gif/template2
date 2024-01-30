@@ -12,7 +12,7 @@ function Headers() {
                     <div className=' cercle bg-red-100'></div>
                 </div>
             </div>
-            <nav className='nav-bar  flex justify-between  lg:w-10/12 lg:mt-10 md:mt-5  p-5 lg:text-3xl'>
+            <nav className='nav-bar  flex justify-between  lg:w-10/12 lg:mt-10  p-5 lg:text-3xl'>
                 <h1 className='text-white   w-5/12 font-extrabold'>OTAK'UNIVERS</h1>
                 <IoMdMenu className='text-white border text-5xl'/>
             </nav>

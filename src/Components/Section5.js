@@ -3,11 +3,11 @@ import otaku from '../assets/Img/otaku.jpg'
 function Section5() {
     return(
         <section className="section5  w-full flex p-10  mt-12">
-            <div className="w-6/12 border  flex justify-center  bg-white ">
-                <div className=" mt-40 w-10/12 ">
-                    <h2 className="text-2xl font-extrabold mt-5">Valeurs et fonctionnalités</h2>
-                    <h3 className="text-3xl font-semibold mt-5">Pourquoi nous choisissez-vous ?</h3>
-                    <p className="text-2xl font-serif text-gray-400 mt-10">
+            <div className="lg:w-6/12  w-full border  flex justify-center  bg-white ">
+                <div className="lg:mt-40 mt-10 md:w-10/12 lg:w-10/12 ">
+                    <h2 className="lg:text-2xl md:text-2xl text-xl font-extrabold mt-5">Valeurs et fonctionnalités</h2>
+                    <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold mt-5">Pourquoi nous choisissez-vous ?</h3>
+                    <p className="lg:text-2xl md:text-2xl text-xl font-serif text-gray-400 mt-10">
                         1. Interface utilisateur magnifique et facile à comprendre, animations professionnelles<br/>
                         2. Design parfait et code clair livré<br/>
                         3. Présentez vos services avec flexibleu a massa<br/>
@@ -16,7 +16,7 @@ function Section5() {
                     </p>
                 </div>
             </div>
-            <img className="w-6/12" alt="" src={otaku}/>
+            <img className="anime w-6/12" alt="" src={otaku}/>
         </section>
     )
     
