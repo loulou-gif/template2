@@ -89,12 +89,12 @@ iframe{
     .social-network{
         display: none;
     }
-    .header{
+    /* .header{
         
     }
     .nav-bar{
 
-    }
+    } */
     .section1{
         display:block;
         width: 100%;
@@ -126,8 +126,16 @@ iframe{
     .complete{
         background-color: rgba(0, 0, 0, 0.2); 
     }
-    .img-sect3{
+    .sect3{
         display: none;
+    }
+    .section4{
+        display: none;
+        margin-top: 50px;
+    }
+    .section3{
+        height: 400px;
+        background-color: rgba(149, 149, 149, 0.2); 
     }
   }
   
