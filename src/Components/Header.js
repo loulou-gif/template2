@@ -1,20 +1,36 @@
+import { useState } from 'react';
 import '../assets/Css/Styles.css'
 // import Banner from '../assets/Img/banner.png'
 import { IoMdMenu } from "react-icons/io";
+// import { Link } from 'react-router-dom';
+import SideMenu from './SideMenu';
+import { TiSocialFacebookCircular, TiSocialInstagram, TiSocialYoutube } from "react-icons/ti";
+
+
+
 function Headers() {
+    const [open, setOpen] = useState(false);
+
+    const handleSlide = () =>{
+        setOpen(!open)
+        console.log("it's ok")
+    }
+
+
     return(
         <header className="header w-full  bg-gray-300">
+            <SideMenu open={open} setOpen={setOpen} />
             <div className='social-network   flex justify-between bg-white pl-5 -pr-5 '>
                 <h1 className='text-2xl pt-3 text-white font-extrabold'>OTAK'UNIVERS</h1>
                 <div className='flex justify-end '>
-                    <div className='cercle bg-red-100 '></div>
-                    <div className='cercle bg-red-100'></div>
-                    <div className=' cercle bg-red-100'></div>
+                    <TiSocialFacebookCircular className='cercle text-white '/>
+                    <TiSocialInstagram className='cercle text-white'/>
+                    <TiSocialYoutube className=' cercle text-white'/>
                 </div>
             </div>
             <nav className='nav-bar  flex justify-between  lg:w-10/12 lg:mt-10  p-5 lg:text-3xl'>
                 <h1 className='text-white   w-5/12 font-extrabold'>OTAK'UNIVERS</h1>
-                <IoMdMenu className='text-white border text-5xl'/>
+                <IoMdMenu onClick={handleSlide} className='text-white border text-5xl'/>
             </nav>
             <div className='title   text-white mt-24 lg:w-9/12'>
                 <h1 className='lg:text-3xl font-extrabold'>L'univers des OTAKU vous ouvres ses porte.</h1>
