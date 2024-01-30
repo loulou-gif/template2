@@ -8,7 +8,7 @@ const SideMenu = ({ open, setOpen }) => {
         setOpen(false);
     };
     return (
-        <div className={`sidemenu text-3xl duration-300  text-white ${open ? 'active duration-500' : 'inactive '}`}>
+        <div className={`sidemenu text-3xl text-white ${open ? 'active duration-500' : 'inactive '}`}>
             <RxCross1 className='' onClick={closeSidebar}/>
             <ul>
                 <li><Link to="/">HOME</Link></li>

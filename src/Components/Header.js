@@ -18,7 +18,7 @@ function Headers() {
 
 
     return(
-        <header className="header w-full border-t-2  bg-gray-300">
+        <header className="header w-full  bg-gray-300">
             <SideMenu open={open} setOpen={setOpen} />
             <div className='social-network   flex justify-between bg-white pl-5'>
                 <h1 className='text-2xl pt-4 text-white font-extrabold'>OTAK'UNIVERS</h1>
@@ -28,7 +28,7 @@ function Headers() {
                     <TiSocialYoutube className=' cercle text-white'/>
                 </div>
             </div>
-            <nav className='nav-bar  flex justify-between  lg:w-10/12 lg:mt-10  p-5 lg:text-3xl'>
+            <nav className='nav-bar  flex justify-between  lg:w-10/12 lg:pt-24  p-5 lg:text-3xl'>
                 <h1 className='text-white   w-5/12 font-extrabold'>OTAK'UNIVERS</h1>
                 <IoMdMenu onClick={handleSlide} className='text-white border text-5xl'/>
             </nav>

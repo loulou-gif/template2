@@ -13,7 +13,6 @@ import Section8 from "../Components/Section8";
 function Home() {
     return(
         <div>
-            {/* <SideMenu/> */}
             <Header/>
             <Section1/>
             <Section2/>
