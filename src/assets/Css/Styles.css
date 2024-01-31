@@ -152,6 +152,17 @@ iframe{
         height: 400px;
         background-color: rgba(149, 149, 149, 0.2); 
     }
+    .active{
+        height: 100%;
+        position: fixed;
+        padding-top: 100px;
+        width: 100%;
+        transition: all 1s;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .active ul{
+        text-align: center;
+    }
   }
   
   /* Styles pour les écrans plus larges que 1024px */

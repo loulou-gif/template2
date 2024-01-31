@@ -30,7 +30,7 @@ function Headers() {
             </div>
             <nav className='nav-bar  flex justify-between  lg:w-10/12 lg:pt-24  p-5 lg:text-3xl'>
                 <h1 className='text-white   w-5/12 font-extrabold'>OTAK'UNIVERS</h1>
-                <IoMdMenu onClick={handleSlide} className='text-white border text-5xl'/>
+                <button><IoMdMenu onClick={handleSlide} className='text-white border text-5xl'/></button>
             </nav>
             <div className='title   text-white mt-24 lg:w-9/12'>
                 <h1 className='lg:text-3xl font-extrabold'>L'univers des OTAKU vous ouvres ses porte.</h1>

@@ -8,12 +8,13 @@ const SideMenu = ({ open, setOpen }) => {
         setOpen(false);
     };
     return (
-        <div className={`sidemenu text-3xl text-white ${open ? 'active duration-500' : 'inactive '}`}>
-            <RxCross1 className='' onClick={closeSidebar}/>
+        <div className={`sidemenu text-3xl flex justify-end flex-col-reverse text-white ${open ? 'active duration-500 ' : 'inactive '}`}>
+            
             <ul>
-                <li><Link to="/">HOME</Link></li>
+                <li className='hover:text-blue-600 '><Link to="/">HOME</Link></li>
                 {/* Ajoutez d'autres liens de la barre latérale au besoin */}
             </ul>
+            <div className='flex justify-end'><button className='bouton h-10'><RxCross1 className='border' onClick={closeSidebar}/></button></div>
         </div>
     );
 }
