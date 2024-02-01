@@ -9,7 +9,6 @@ const SideMenu = ({ open, setOpen }) => {
     };
     return (
         <div className={`sidemenu text-3xl flex justify-end flex-col-reverse text-white ${open ? 'active duration-500 ' : 'inactive '}`}>
-            
             <ul>
                 <li className='hover:text-blue-600 '><Link to="/">HOME</Link></li>
                 {/* Ajoutez d'autres liens de la barre latérale au besoin */}
