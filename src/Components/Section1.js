@@ -5,7 +5,7 @@ import luffy from '../assets/Img/luffy.jpg'
 import ken from '../assets/Img/ghoul.jpg'
 function Section1() {
     return(
-        <section className="section1 flex border justify-center">
+        <section className="section1 lg:flex border lg:justify-center md:justify-evenly md:flex-col ">
             <div className="box border   rounded-md bg-white ml-10 -mt-52 ">
                 <div className='flex justify-center mt-10'>
                     <img alt="naruto" className="second-cercle   " src={naruto} /> 

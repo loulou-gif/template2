@@ -100,7 +100,7 @@ iframe{
 }
 
 /* Styles pour les écrans plus larges que 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .social-network{
         display: none;
     }
@@ -162,6 +162,12 @@ iframe{
     }
     .active ul{
         text-align: center;
+    }
+    .section5 .anime{
+        display: none;
+    }
+    .section2 .test{
+        flex-direction: column;
     }
   }
   
